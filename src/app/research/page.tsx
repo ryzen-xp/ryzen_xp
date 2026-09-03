@@ -14,7 +14,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Research Log | Sandeep Chauhan",
   description:
-    "Experimental logs, research notes, and benchmark evaluations on AI agent architectures and autonomous software systems.",
+    "Smart contract audits, protocol security research, and notes on Solidity, Cairo, and Soroban systems across Starknet, Stellar, and EVM.",
 };
 
 const BLUR_FADE_DELAY = 0.04;
@@ -48,13 +48,13 @@ export default async function ResearchPage() {
           <div className="flex flex-col gap-3 mb-12 items-center text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs font-medium">
               <FlaskConical className="size-3.5" />
-              <span>Research Log & Monographs</span>
+              <span>Smart Contract Audits & Research</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
-              Research & Experiment Logs
+              Smart Contract Audits & Research
             </h1>
             <p className="text-lg text-muted-foreground max-w-[620px]">
-              Documenting experimental findings, autonomous AI agent benchmarks, literature notes, and software system architectures.
+              Security reviews, vulnerability notes, and protocol research across Solidity, Cairo, and Soroban — covering DeFi, escrow, RWA, and EVM / Starknet / Stellar systems.
             </p>
           </div>
         </BlurFade>
@@ -65,9 +65,9 @@ export default async function ResearchPage() {
             <BlurFade delay={BLUR_FADE_DELAY * 1.5}>
               <div className="rounded-2xl border bg-card p-12 text-center space-y-4 shadow-sm">
                 <FlaskConical className="size-10 text-muted-foreground mx-auto opacity-50" />
-                <h3 className="text-xl font-bold">No Published Research Logs Yet</h3>
+                <h3 className="text-xl font-bold">No Published Audit Logs Yet</h3>
                 <p className="text-sm text-muted-foreground max-w-md mx-auto">
-                  Research logs and benchmark evaluations will appear here once published from the local editor.
+                  Smart contract audit write-ups and research notes will appear here once published.
                 </p>
               </div>
             </BlurFade>

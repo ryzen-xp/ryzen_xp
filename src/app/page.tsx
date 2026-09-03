@@ -144,13 +144,15 @@ export default function Page() {
                       src={skill.logoUrl}
                       alt={skill.name}
                       className={`size-4 rounded object-contain ${
-                        skill.name === "Solidity" ? "dark:invert" : ""
+                        "invertInDark" in skill && skill.invertInDark
+                          ? "dark:invert"
+                          : ""
                       }`}
                     />
                   ) : (
                     "icon" in skill &&
                     skill.icon && (
-                      <skill.icon className="size-4 rounded overflow-hidden object-contain" />
+                      <skill.icon className="size-4 rounded overflow-hidden object-contain text-foreground" />
                     )
                   )}
                   <span className="text-foreground text-sm font-medium">{skill.name}</span>
