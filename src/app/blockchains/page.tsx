@@ -114,7 +114,9 @@ function ChainCard({
           <img
             src={chain.logoUrl}
             alt={chain.name}
-            className="h-16 w-auto max-w-full object-contain"
+            className={`h-16 w-auto max-w-full object-contain ${
+              "invertInDark" in chain && chain.invertInDark ? "dark:invert" : ""
+            }`}
           />
         </div>
         <span className="text-[10px] uppercase tracking-wider text-muted-foreground border border-border rounded-full px-2.5 py-1 shrink-0">

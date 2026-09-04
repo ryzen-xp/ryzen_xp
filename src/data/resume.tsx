@@ -44,6 +44,7 @@ export const DATA = {
       logoUrl: "/chains/stellar.png",
       href: "https://stellar.org",
       focus: "Primary",
+      invertInDark: true,
       description:
         "Where I spend most of my time — Soroban smart contracts, USDC escrow, RWA lending, and production backends with Rust, Axum, and TypeScript.",
     },
@@ -282,6 +283,11 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/ryzen-xp/NGO-Crowd-Funding",
           icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://charitychainxp.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/projects/charity-chain.png",
