@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const BLUR_FADE_DELAY = 0.04;
-const RESUME_PDF = "/Sandeep_Chauhan_Resume.pdf";
+const RESUME_PDF = "/Sandeep_Chauhan_0x8_masked.pdf";
 
 export default function ResumePage() {
   return (
